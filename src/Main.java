@@ -12,6 +12,7 @@ public class Main {
         label.setText("Bro, do you even code?"); //set text of label
         label.setIcon(image);
         label.setHorizontalTextPosition(JLabel.CENTER); //set text LEFT, CENTRE, RIGHT of ImageIcon
+        label.setVerticalTextPosition(JLabel.TOP);  //set text TOP,CENTER,BOTTOM of ImageIcon
 
 
         JFrame frame = new JFrame();
