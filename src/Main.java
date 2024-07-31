@@ -16,6 +16,7 @@ public class Main {
         label.setVerticalTextPosition(JLabel.TOP);  //set text TOP,CENTER,BOTTOM of ImageIcon
         label.setForeground(new Color(0x00FF00));  //set font color of text
         label.setFont(new Font("MV Boli",Font.PLAIN,20)); //set font of text
+        label.setIconTextGap(50); //set gap of text to image
 
 
         JFrame frame = new JFrame();
