@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -13,6 +14,8 @@ public class Main {
         label.setIcon(image);
         label.setHorizontalTextPosition(JLabel.CENTER); //set text LEFT, CENTRE, RIGHT of ImageIcon
         label.setVerticalTextPosition(JLabel.TOP);  //set text TOP,CENTER,BOTTOM of ImageIcon
+        label.setForeground(new Color(0x00FF00));  //set font color of text
+        label.setFont(new Font("MV Boli",Font.PLAIN,20)); //set font of text
 
 
         JFrame frame = new JFrame();
