@@ -11,6 +11,7 @@ public class Main {
         JLabel label = new JLabel(); //create a label
         label.setText("Bro, do you even code?"); //set text of label
         label.setIcon(image);
+        label.setHorizontalTextPosition(JLabel.CENTER); //set text LEFT, CENTRE, RIGHT of ImageIcon
 
 
         JFrame frame = new JFrame();
