@@ -1,4 +1,5 @@
 import javax.swing.*;
+import javax.swing.border.Border;
 import java.awt.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -8,6 +9,7 @@ public class Main {
 
         //JLabel = a GUI display area for a string of text, an image, or both
         ImageIcon image = new ImageIcon("dude.jpeg");
+        Border border = BorderFactory.createLineBorder(Color.green,3);
 
         JLabel label = new JLabel(); //create a label
         label.setText("Bro, do you even code?"); //set text of label
@@ -19,6 +21,7 @@ public class Main {
         label.setIconTextGap(50); //set gap of text to image
         label.setBackground(Color.black);  //set background color
         label.setOpaque(true); //display background color
+        label.setBorder(border); //sets border
 
 
         JFrame frame = new JFrame();
