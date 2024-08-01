@@ -24,11 +24,13 @@ public class Main {
         label.setBorder(border); //sets border
         label.setVerticalAlignment(JLabel.CENTER); //set vertical position of icon+text within the label
         label.setHorizontalAlignment(JLabel.CENTER); //set horizontal position of icon+text within the label
+        label.setBounds(70,70,250,250); //set x,y position within the frame as well as dimensions
 
 
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(500, 500);
+        frame.setLayout(null);
         frame.setVisible(true);
         frame.add(label);
 
