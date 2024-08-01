@@ -23,6 +23,7 @@ public class Main {
         label.setOpaque(true); //display background color
         label.setBorder(border); //sets border
         label.setVerticalAlignment(JLabel.CENTER); //set vertical position of icon+text within the label
+        label.setHorizontalAlignment(JLabel.CENTER); //set horizontal position of icon+text within the label
 
 
         JFrame frame = new JFrame();
