@@ -17,6 +17,8 @@ public class Main {
         label.setForeground(new Color(0x00FF00));  //set font color of text
         label.setFont(new Font("MV Boli",Font.PLAIN,20)); //set font of text
         label.setIconTextGap(50); //set gap of text to image
+        label.setBackground(Color.black);  //set background color
+        label.setOpaque(true); //display background color
 
 
         JFrame frame = new JFrame();
